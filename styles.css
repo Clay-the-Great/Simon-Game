@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  /* background-color: #011F3F; */
+  /* background-color: #444444; */
+  /* background-color: #5C3D2E; */
+  background-color: #525252;
+}
+
+.game-name{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3.5rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+#level-title {
+  /* font-family: 'Press Start 2P', cursive; */
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  /* width: 50%; */
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  font-family: 'Alfa Slab One', cursive;
+  color: #FEF2BF;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+  color: #76BA99;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* New */
+.transparent{
+  opacity: 5%;
+}
+
+.start-button{
+  margin: auto;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 50%;
+  text-align: center;
+  background-color: red;
+  font-family: 'Alfa Slab One', cursive;
+  /* font-family: 'Merriweather', serif; */
+  color: #FEF2BF;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+.container-button{
+  display: grid;
+}
+
+footer{
+  text-align: center;
+  padding: 4rem;
+  color: #EFEFEF;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="game-name">The Simon Game</h1>
+  <h1 id="level-title">Press A Key to Start.</h1>
+
+  <div class="row">
+    <div class="col-md-6 container-button">
+      <div type="button" class="start-button">
+        Bring It On!
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="container">
+
+        <div class="row">
+
+          <div type="button" id="green" class="btn green">
+            Green
+          </div>
+
+          <div type="button" id="purple" class="btn purple">
+            Purple
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div type="button" id="yellow" class="btn yellow">
+            Yellow
+          </div>
+          <div type="button" id="blue" class="btn blue">
+            Blue
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+<footer>
+  © Chenmeng Wang 2022
+</footer>
+
+</html>
