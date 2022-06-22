@@ -39,7 +39,7 @@ $(".btn").click(function() {
         userClickedPattern = [];
         setTimeout(function() {
           nextSequence();
-        }, 500);
+        }, 1000);
       }
     } else {
       gameOver();
