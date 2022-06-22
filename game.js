@@ -78,22 +78,25 @@ function gameOver() {
     $("body").removeClass("game-over");
   }, 200);
   // $(".start-button").text("Start Over!");
-  if(level < 3){
+  if(level < 5){
     $("#level-title").text("Level " + level + ". Well, even morons can do better than that.");
   }
   else if(level < 10){
     $("#level-title").text("Level " + level + ". Seriously? You suck, man.");
   }
-  else if (level < 20){
+  else if (level < 15){
     $("#level-title").text("Level " + level + ". Come on, is that really what you can do?");
   }
-  else if (level < 30){
+  else if (level < 20){
+    $("#level-title").text("Level " + level + ". Thought you are better than that, but apparently I was wrong.");
+  }
+  else if (level < 25){
     $("#level-title").text("Level " + level + ". Maybe, just maybe, there's still hope in you.");
   }
-  else if (level < 40){
+  else if (level < 30){
     $("#level-title").text("Level " + level + ". Meh.");
   }
-  else if (level < 50){
+  else if (level < 35){
     $("#level-title").text("Level " + level + ". Finally, acceptable.");
   }
   else{
