@@ -66,16 +66,6 @@ body {
   color: #76BA99;
 }
 
-.pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
-}
-
-/* New */
-.transparent{
-  opacity: 5%;
-}
-
 .start-button{
   margin: auto;
   display: inline-block;
@@ -93,8 +83,17 @@ body {
   justify-content: center;
   align-content: center;
   flex-direction: column;
-
 }
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* New */
+/* .transparent{
+  opacity: 5%;
+} */
 
 .container-button{
   display: grid;
